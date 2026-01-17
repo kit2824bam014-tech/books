@@ -66,12 +66,10 @@ const Login = () => {
       {/* Main Login Card */}
       <div className="glass-card w-full max-w-[420px] p-8 md:p-10 relative z-10 animate-in fade-in zoom-in duration-700">
         <div className="flex flex-col items-center mb-8 md:mb-10">
-          <div className="w-12 h-12 glass rounded-2xl flex items-center justify-center mb-6 border border-white/20">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 3L14.5 9H21L16 13L18 20L12 16L6 20L8 13L3 9H9.5L12 3Z" fill="white" fillOpacity="0.9" />
-            </svg>
+          <div className="w-12 h-12 glass rounded-2xl flex items-center justify-center mb-6 border border-white/20 overflow-hidden p-2">
+            <img src="/favicon.png" alt="Book Hub Logo" className="w-full h-full object-contain" />
           </div>
-          <h1 className="text-3xl font-medium tracking-tight text-white mb-2">BookHub</h1>
+          <h1 className="text-3xl font-medium tracking-tight text-white mb-2">Book Hub</h1>
           <p className="text-zinc-500 text-sm">Welcome back! Please enter your details.</p>
         </div>
 

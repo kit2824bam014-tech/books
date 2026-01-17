@@ -40,14 +40,11 @@ const Navbar = ({ onOpenCart }) => {
 
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 glass rounded-xl flex items-center justify-center border border-white/10 group-hover:border-blue-500/50 transition-all duration-500 group-hover:rotate-12">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white group-hover:text-blue-400 overflow-visible transition-colors">
-              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-            </svg>
+          <div className="w-10 h-10 glass rounded-xl flex items-center justify-center border border-white/10 group-hover:border-blue-500/50 transition-all duration-500 group-hover:rotate-12 overflow-hidden p-1.5">
+            <img src="/favicon.png" alt="Book Hub Logo" className="w-full h-full object-contain" />
           </div>
           <span className="text-xl font-semibold tracking-tight text-white group-hover:text-blue-400 transition-colors">
-            BookHub
+            Book Hub
           </span>
         </Link>
 
