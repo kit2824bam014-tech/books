@@ -27,9 +27,7 @@ export const AuthProvider = ({ children }) => {
 
   const signup = async (username, email, password, address) => {
     try {
-      const res = await axios.post('http://localhost:1000/api/v1/sign-up', { username, email, password, address });
-      localStorage.setItem('user', JSON.stringify(res.data.user));
-      setUser(res.data.user);
+      await axios.post('http://localhost:1000/api/v1/sign-up', { username, email, password, address });
     } catch (error) {
       throw error;
     }

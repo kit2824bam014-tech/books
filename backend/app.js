@@ -9,10 +9,12 @@ require("./conn/conn");
 const User = require("./routes/user");
 const Books = require("./routes/books");
 const Orders = require("./routes/orders");
+const Cart = require("./routes/cart");
 
 app.use("/api/v1", User);
 app.use("/api/v1/books", Books);
 app.use("/api/v1/orders", Orders);
+app.use("/api/v1/cart", Cart);
 app.listen(process.env.PORT, () => {
   console.log(`Server running on port ${process.env.PORT}`);
 });
