@@ -106,7 +106,7 @@ const Navbar = ({ onOpenCart }) => {
                     className="fixed inset-0 z-10"
                     onClick={() => setProfileOpen(false)}
                   />
-                  <div className="absolute right-0 mt-3 w-64 bg-zinc-950/80 backdrop-blur-xl border border-white/10 rounded-3xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.4)] z-20 animate-in fade-in zoom-in duration-200 origin-top-right">
+                  <div className="absolute right-0 mt-3 w-64 bg-zinc-950/95 backdrop-blur-md border border-white/10 rounded-3xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.5)] z-20 animate-in fade-in zoom-in duration-200 origin-top-right">
 
                     {/* User Info Section */}
                     <div className="space-y-4 mb-4">
