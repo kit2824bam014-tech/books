@@ -4,7 +4,7 @@ const Book = require("./models/book");
 
 const books = [
   {
-    url: "https://m.media-amazon.com/images/I/51-nXsSRfZL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/51-nXsSRfZL.jpg",
     title: "Atomic Habits",
     author: "James Clear",
     price: 499,
@@ -12,7 +12,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/410llGwTglL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/51Z0nLAfLmL.jpg",
     title: "The Alchemist",
     author: "Paulo Coelho",
     price: 350,
@@ -20,7 +20,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/41r6F2LRf8L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/41r6F2LRf8L.jpg",
     title: "The Psychology of Money",
     author: "Morgan Housel",
     price: 399,
@@ -28,7 +28,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/416Eb067uSL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/416Eb067uSL.jpg",
     title: "Deep Work",
     author: "Cal Newport",
     price: 450,
@@ -36,7 +36,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81mXS3H98eL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81mXS3H98eL.jpg",
     title: "Rich Dad Poor Dad",
     author: "Robert Kiyosaki",
     price: 399,
@@ -44,7 +44,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/71sBtM3Yi5L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/71sBtM3Yi5L.jpg",
     title: "The Power of Your Subconscious Mind",
     author: "Joseph Murphy",
     price: 299,
@@ -52,7 +52,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/51S77Q-itDL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/51S77Q-itDL.jpg",
     title: "Man's Search for Meaning",
     author: "Viktor Frankl",
     price: 320,
@@ -60,7 +60,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/5165He67NEL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
     title: "Ikigai",
     author: "Hector Garcia",
     price: 420,
@@ -68,7 +68,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81LFAbe9A6L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81LFAbe9A6L.jpg",
     title: "Think and Grow Rich",
     author: "Napoleon Hill",
     price: 250,
@@ -76,7 +76,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/71atWfC1oIL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/71atWfC1oIL.jpg",
     title: "The 5 AM Club",
     author: "Robin Sharma",
     price: 399,
@@ -84,7 +84,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/818fS66C41L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/818fS66C41L.jpg",
     title: "Wings of Fire",
     author: "A.P.J. Abdul Kalam",
     price: 299,
@@ -92,7 +92,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/71X8X8R6D9L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/71X8X8R6D9L.jpg",
     title: "The 7 Habits of Highly Effective People",
     author: "Stephen Covey",
     price: 550,
@@ -100,7 +100,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/41m6f-3hXzL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/41m6f-3hXzL.jpg",
     title: "Zero to One",
     author: "Peter Thiel",
     price: 450,
@@ -108,7 +108,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/71uK-Vv0qLL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/71uK-Vv0qLL.jpg",
     title: "Start with Why",
     author: "Simon Sinek",
     price: 399,
@@ -116,7 +116,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/910M6i-dGML._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/910M6i-dGML.jpg",
     title: "The Intelligent Investor",
     author: "Benjamin Graham",
     price: 699,
@@ -124,7 +124,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/713jIoMO3UL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg",
     title: "Sapiens",
     author: "Yuval Noah Harari",
     price: 599,
@@ -132,7 +132,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/816K8N6E9pL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/816K8N6E9pL.jpg",
     title: "Becoming",
     author: "Michelle Obama",
     price: 499,
@@ -140,7 +140,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/810u9M7429L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/810u9M7429L.jpg",
     title: "Educated",
     author: "Tara Westover",
     price: 450,
@@ -148,7 +148,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/71t4GuxLCuL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/71t4GuxLCuL.jpg",
     title: "The Subtle Art of Not Giving a F*ck",
     author: "Mark Manson",
     price: 399,
@@ -156,7 +156,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81vR5I8-HHL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81vR5I8-HHL.jpg",
     title: "Quiet",
     author: "Susan Cain",
     price: 420,
@@ -164,7 +164,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81XyL9pndlL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81XyL9pndlL.jpg",
     title: "Grit",
     author: "Angela Duckworth",
     price: 420,
@@ -172,7 +172,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81Y7y3y-JPL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81Y7y3y-JPL.jpg",
     title: "Originals",
     author: "Adam Grant",
     price: 450,
@@ -180,7 +180,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/816R5R8+V0L._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/816R5R8+V0L.jpg",
     title: "Elon Musk",
     author: "Walter Isaacson",
     price: 899,
@@ -188,7 +188,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81v66j-3XqL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81v66j-3XqL.jpg",
     title: "Steve Jobs",
     author: "Walter Isaacson",
     price: 650,
@@ -196,7 +196,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/91id544iYPL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/91id544iYPL.jpg",
     title: "The Lean Startup",
     author: "Eric Ries",
     price: 499,
@@ -204,7 +204,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81G9j8Wk7mL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81G9j8Wk7mL.jpg",
     title: "Shoe Dog",
     author: "Phil Knight",
     price: 450,
@@ -212,7 +212,7 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81mI8m9+uFL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81mI8m9+uFL.jpg",
     title: "Never Split the Difference",
     author: "Chris Voss",
     price: 499,
@@ -220,11 +220,35 @@ const books = [
     language: "English"
   },
   {
-    url: "https://m.media-amazon.com/images/I/81vS3S-7jLL._SY445_SX342_.jpg",
+    url: "https://m.media-amazon.com/images/I/81vS3S-7jLL.jpg",
     title: "Can't Hurt Me",
     author: "David Goggins",
     price: 599,
     desc: "Master your mind and defy the odds.",
+    language: "English"
+  },
+  {
+    url: "https://images-na.ssl-images-amazon.com/images/I/51o5dnjk07L.jpg",
+    title: "The Book Thief",
+    author: "Markus Zusak",
+    price: 500,
+    desc: "An unforgettable WWII tale narrated by Death, where words become survival.",
+    language: "English"
+  },
+  {
+    url: "https://images-na.ssl-images-amazon.com/images/I/41NwnfKbiHL.jpg",
+    title: "Normal People",
+    author: "Sally Rooney",
+    price: 600,
+    desc: "A raw, tender exploration of intimacy and social class through two interwoven lives.",
+    language: "English"
+  },
+  {
+    url: "https://images-na.ssl-images-amazon.com/images/I/41I6N1yQ9PL.jpg",
+    title: "The Nightingale",
+    author: "Kristin Hannah",
+    price: 400,
+    desc: "Two sisters battle survival and resistance in Nazi-occupied France.",
     language: "English"
   }
 ];
